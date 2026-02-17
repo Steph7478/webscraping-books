@@ -1,0 +1,48 @@
+# --- JAVA & COMPILAÇÃO ---
+*.class
+*.log
+*.jar
+*.war
+*.ear
+target/
+build/
+.gradle/
+bin/
+
+# --- INTELLIJ IDEA ---
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+cmake-build-*/
+
+# --- VS CODE ---
+.vscode/
+.factorypath
+
+# --- MAVEN ---
+.mtj.tmp/
+*.releaseBackup
+*.taglibLock
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# --- SISTEMA OPERACIONAL ---
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# --- SCRAPER ESPECÍFICO ---
+# Se você salvar os resultados em arquivos, ignore-os para não sujar o repo
+*.csv
+*.json
+*.txt
+!requirements.txt
